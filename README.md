@@ -9,7 +9,7 @@ We then took a pre-trained VGG-16 and fed the Bold5000 stimuli into the network 
 
 We trained for 100 epochs with the transfer after both the MaxPool3 and MaxPool4.  After these 100 epochs, the pearson correlation between ground truth and predictions across all stimuli and neurons is over .6 for both layer transfers.  
 
-We then used a network inspired by Inception In Visual Cortex: In Vivo Silico Loops Reveal Most Exciting Images (Walke, Sinz, Ecker, Tolias, et al.) to go backwards into the now trained VGG-16 networks and generate stimuli that drive the neurons beyond the previous maximum.   
+We then used a network inspired by Inception In Visual Cortex: In Vivo Silico Loops Reveal Most Exciting Images (Walke, Sinz, Ecker, Tolias, et al.) to go backwards into the now trained VGG-16 networks and generate stimuli that drive the neurons beyond the previous maximum.     
 
 
 
